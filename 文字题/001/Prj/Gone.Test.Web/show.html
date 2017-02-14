@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script type="text/javascript" src="jquery-2.0.2.js"></script>
+    <script type="text/javascript" src="tool.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Parse").click(function () {
+                $("#divShow").empty();
+                $.get("http://localhost/Geone.Test.Web/Handler1.ashx?data=" + $("#txtContent").val(), function (r) {
+
+                    $("#divShow").html(r);
+
+                });
+
+            });
+        });
+         
+    </script>
+</head>
+
+<body>
+    <textarea id="txtContent" style="width: 600px; height: 100px; border: 1px solid #ccc">
+
+    </textarea>
+
+    <button id="Parse">Parse</button>
+
+    <div id="divShow"></div>
+</body>
+</html>

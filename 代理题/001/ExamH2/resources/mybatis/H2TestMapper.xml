@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.geone.its.bizSvs.domain.common.model.repo.H2TestMapper" >
+  <resultMap id="BaseResultMap" type="H2Test" >
+    <id column="ID" property="id" jdbcType="VARCHAR" />
+    <result column="LABEL" property="label" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <sql id="Base_Column_List" >
+    UID,PLATE_NO,PASS_TM,COLOR,CREATE_TM,CREATE_BY,UPDATE_TM,UPDATE_BY,VERSION
+  </sql>
+  
+  <select id="findList" resultMap="BaseResultMap" parameterType="H2Test">
+    select 
+    <include refid="Base_Column_List" />
+    from TBL_VEHICLE_PASS_lic
+  </select>
+  
+  <delete id="delete" parameterType="H2Test">
+  </delete>
+  
+  <insert id="insert" parameterType="H2Test">
+  </insert>
+  
+  <update id="update" parameterType="H2Test">
+  </update>
+</mapper>

@@ -1,0 +1,12 @@
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\bin\Debug\GeoneWordProcess.exe.config
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\bin\Debug\GeoneWordProcess.exe
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\bin\Debug\GeoneWordProcess.pdb
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.Form1.resources
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.Properties.Resources.resources
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.csproj.GenerateResource.Cache
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.exe
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.pdb
+E:\Myproject\OperationAnswer\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.csprojResolveAssemblyReference.cache
+E:\公司材料\公司竞赛\20161229\文字提取展示\GeoneWordProcess\GeoneWordProcess\bin\Debug\GeoneWordProcess.exe.config
+E:\公司材料\公司竞赛\20161229\文字提取展示\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.exe
+E:\公司材料\公司竞赛\20161229\文字提取展示\GeoneWordProcess\GeoneWordProcess\obj\Debug\GeoneWordProcess.pdb

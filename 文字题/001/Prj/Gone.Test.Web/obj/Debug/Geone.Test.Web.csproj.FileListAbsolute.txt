@@ -1,0 +1,4 @@
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Geone.Test.Web.dll
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Geone.Test.Web.pdb
+E:\Project\Geone\Prj\Gone.Test.Web\obj\Debug\Geone.Test.Web.dll
+E:\Project\Geone\Prj\Gone.Test.Web\obj\Debug\Geone.Test.Web.pdb

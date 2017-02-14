@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\正则查词\正则查词\bin\Debug\正则查词.exe.config
+C:\Users\Administrator\Desktop\正则查词\正则查词\bin\Debug\正则查词.exe
+C:\Users\Administrator\Desktop\正则查词\正则查词\bin\Debug\正则查词.pdb
+C:\Users\Administrator\Desktop\正则查词\正则查词\obj\Debug\正则查词.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\正则查词\正则查词\obj\Debug\正则查词.Form1.resources
+C:\Users\Administrator\Desktop\正则查词\正则查词\obj\Debug\正则查词.Properties.Resources.resources
+C:\Users\Administrator\Desktop\正则查词\正则查词\obj\Debug\正则查词.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\正则查词\正则查词\obj\Debug\正则查词.exe
+C:\Users\Administrator\Desktop\正则查词\正则查词\obj\Debug\正则查词.pdb

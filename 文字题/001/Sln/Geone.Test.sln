@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geone.Test.ParseConsole", "..\Prj\Geone.Test.Console\Geone.Test.ParseConsole.csproj", "{BEE2F69D-30D3-45B7-BE6B-A5169C93FB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geone.Test.Web", "..\Prj\Gone.Test.Web\Geone.Test.Web.csproj", "{682438DA-E5A4-409D-83D2-2E955D2D649D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE2F69D-30D3-45B7-BE6B-A5169C93FB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE2F69D-30D3-45B7-BE6B-A5169C93FB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE2F69D-30D3-45B7-BE6B-A5169C93FB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE2F69D-30D3-45B7-BE6B-A5169C93FB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682438DA-E5A4-409D-83D2-2E955D2D649D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682438DA-E5A4-409D-83D2-2E955D2D649D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682438DA-E5A4-409D-83D2-2E955D2D649D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682438DA-E5A4-409D-83D2-2E955D2D649D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

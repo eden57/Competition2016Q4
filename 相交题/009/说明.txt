@@ -1,0 +1,2 @@
+运行cmd，进入Debug文件夹，输入   VectorCalc.exe ./input.txt
+input.txt文件中按输入矢量文件AA01、AB输出矢量文件路径、分辨率进行编写

@@ -1,0 +1,5 @@
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\Bin\Debug\PanGu.HighLight.dll
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\Bin\Debug\PanGu.HighLight.pdb
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu.HighLight\obj\Debug\PanGu.HighLight.csprojResolveAssemblyReference.cache
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu.HighLight\obj\Debug\PanGu.HighLight.dll
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu.HighLight\obj\Debug\PanGu.HighLight.pdb

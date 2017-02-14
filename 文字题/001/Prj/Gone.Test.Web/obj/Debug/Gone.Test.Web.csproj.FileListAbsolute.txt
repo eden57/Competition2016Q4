@@ -1,0 +1,14 @@
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Gone.Test.Web.dll
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Gone.Test.Web.pdb
+E:\Project\Geone\Prj\Gone.Test.Web\obj\Debug\Gone.Test.Web.dll
+E:\Project\Geone\Prj\Gone.Test.Web\obj\Debug\Gone.Test.Web.pdb
+E:\Project\Geone\Prj\Gone.Test.Web\obj\Debug\Gone.Test.Web.csprojResolveAssemblyReference.cache
+E:\Project\Geone\Prj\Gone.Test.Web\bin\data\sDict.txt
+E:\Project\Geone\Prj\Gone.Test.Web\bin\data\sNoise.txt
+E:\Project\Geone\Prj\Gone.Test.Web\bin\data\sObj.txt
+E:\Project\Geone\Prj\Gone.Test.Web\bin\data\sObj_dw.txt
+E:\Project\Geone\Prj\Gone.Test.Web\bin\data\sObj_zw.txt
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Lucene.China.dll
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Lucene.Net.dll
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Nancy.dll
+E:\Project\Geone\Prj\Gone.Test.Web\bin\Nancy.Hosting.Self.dll

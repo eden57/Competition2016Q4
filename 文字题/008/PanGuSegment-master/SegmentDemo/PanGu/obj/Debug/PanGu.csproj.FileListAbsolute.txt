@@ -1,0 +1,7 @@
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\Bin\Debug\PanGu.dll
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\Bin\Debug\PanGu.pdb
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu\obj\Debug\PanGu.AnalyzerResource.resources
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu\obj\Debug\PanGu.csproj.GenerateResource.Cache
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu\obj\Debug\PanGu.dll
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu\obj\Debug\PanGu.pdb
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\PanGu\obj\Debug\PanGu.csprojResolveAssemblyReference.cache

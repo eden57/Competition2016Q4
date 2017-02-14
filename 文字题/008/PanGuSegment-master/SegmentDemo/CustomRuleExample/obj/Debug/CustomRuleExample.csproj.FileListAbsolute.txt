@@ -1,0 +1,7 @@
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\CustomRuleExample\bin\Debug\CustomRuleExample.dll
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\CustomRuleExample\bin\Debug\CustomRuleExample.pdb
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\CustomRuleExample\bin\Debug\PanGu.dll
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\CustomRuleExample\bin\Debug\PanGu.pdb
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\CustomRuleExample\obj\Debug\CustomRuleExample.csprojResolveAssemblyReference.cache
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\CustomRuleExample\obj\Debug\CustomRuleExample.dll
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\CustomRuleExample\obj\Debug\CustomRuleExample.pdb

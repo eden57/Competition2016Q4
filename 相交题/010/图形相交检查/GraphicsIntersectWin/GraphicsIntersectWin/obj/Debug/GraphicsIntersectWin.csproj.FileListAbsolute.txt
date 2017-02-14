@@ -1,0 +1,14 @@
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\GraphicsIntersectWin.exe.config
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\GraphicsIntersectWin.exe
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\GraphicsIntersectWin.pdb
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\obj\Debug\GraphicsIntersectWin.Form1.resources
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\obj\Debug\GraphicsIntersectWin.Properties.Resources.resources
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\obj\Debug\GraphicsIntersectWin.csproj.GenerateResource.Cache
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\obj\Debug\GraphicsIntersectWin.exe
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\obj\Debug\GraphicsIntersectWin.pdb
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\obj\Debug\GraphicsIntersectWin.ProgressBar.resources
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+G:\竞赛试题\图形相交检查\GraphicsIntersectWin\GraphicsIntersectWin\bin\Debug\Microsoft.SqlServer.Types.dll

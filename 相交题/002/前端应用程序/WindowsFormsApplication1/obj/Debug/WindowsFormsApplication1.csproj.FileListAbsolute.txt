@@ -1,0 +1,11 @@
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Dapper.dll
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Dapper.xml
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\TEST\201612竞赛考试-丁毅辉\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

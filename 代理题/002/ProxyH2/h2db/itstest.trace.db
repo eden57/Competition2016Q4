@@ -1,0 +1,79 @@
+2017-01-12 16:05:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TBL_VEHICLE_PASS" already exists; SQL statement:
+CREATE TABLE TBL_VEHICLE_PASS ("UID" VARCHAR2(32) PRIMARY KEY, PLATE_NO VARCHAR2(50), PASS_TM DATE, COLOR VARCHAR2(50), CREATE_TM DATE, CREATE_BY VARCHAR2(50), UPDATE_TM DATE, UPDATE_BY VARCHAR2(50), VERSION NUMBER(38,0)) [42101-193]
+2017-01-12 16:05:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TBL_VEHICLE_PASS" already exists; SQL statement:
+CREATE TABLE TBL_VEHICLE_PASS ("UID" VARCHAR2(32) PRIMARY KEY, PLATE_NO VARCHAR2(50), PASS_TM DATE, COLOR VARCHAR2(50), CREATE_TM DATE, CREATE_BY VARCHAR2(50), UPDATE_TM DATE, UPDATE_BY VARCHAR2(50), VERSION NUMBER(38,0)) [42101-193]
+2017-01-12 16:05:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Cannot parse "DATE" constant "2017-01-12 06:46:50"; SQL statement:
+INSERT INTO TBL_VEHICLE_PASS VALUES('0001','苏E00001','2017-01-12 06:46:50','Yellow','2017-01-12 06:47:00','SYS','2017-01-12 06:47:05','SYS','1') -- ('0001', STRINGDECODE('\u82cfE00001'), '2017-01-12 06:46:50', 'Yellow', '2017-01-12 06:47:00', 'SYS', '2017-01-12 06:47:05', 'SYS', '1') [22007-193]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.value.ValueDate.parse(ValueDate.java:81)
+	at org.h2.value.Value.convertTo(Value.java:928)
+	at org.h2.table.Column.convert(Column.java:149)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:143)
+	at org.h2.command.dml.Insert.update(Insert.java:114)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:98)
+	at org.h2.command.Command.executeUpdate(Command.java:258)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:130)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:115)
+	at com.geone.its.impl.H2HandlerImpl.updateData(H2HandlerImpl.java:77)
+	at com.geone.its.Client.main(Client.java:44)
+Caused by: java.lang.NumberFormatException: For input string: "12 06:46:50"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:317)
+	at org.h2.value.ValueDate.parse(ValueDate.java:79)
+	... 10 more
+2017-01-12 16:05:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Cannot parse "DATE" constant "2017-01-12 06:46:50"; SQL statement:
+INSERT INTO TBL_VEHICLE_PASS VALUES('0002','苏E00002','2017-01-12 06:46:50','Red','2017-01-12 06:47:00','SYS','2017-01-12 06:47:05','SYS','1') -- ('0002', STRINGDECODE('\u82cfE00002'), '2017-01-12 06:46:50', 'Red', '2017-01-12 06:47:00', 'SYS', '2017-01-12 06:47:05', 'SYS', '1') [22007-193]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.value.ValueDate.parse(ValueDate.java:81)
+	at org.h2.value.Value.convertTo(Value.java:928)
+	at org.h2.table.Column.convert(Column.java:149)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:143)
+	at org.h2.command.dml.Insert.update(Insert.java:114)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:98)
+	at org.h2.command.Command.executeUpdate(Command.java:258)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:130)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:115)
+	at com.geone.its.impl.H2HandlerImpl.updateData(H2HandlerImpl.java:77)
+	at com.geone.its.Client.main(Client.java:44)
+Caused by: java.lang.NumberFormatException: For input string: "12 06:46:50"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:317)
+	at org.h2.value.ValueDate.parse(ValueDate.java:79)
+	... 10 more
+2017-01-12 16:09:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TBL_VEHICLE_PASS" already exists; SQL statement:
+CREATE TABLE TBL_VEHICLE_PASS ("UID" VARCHAR2(32) PRIMARY KEY, PLATE_NO VARCHAR2(50), PASS_TM DATE, COLOR VARCHAR2(50), CREATE_TM DATE, CREATE_BY VARCHAR2(50), UPDATE_TM DATE, UPDATE_BY VARCHAR2(50), VERSION NUMBER(38,0)) [42101-193]
+2017-01-12 16:10:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TBL_VEHICLE_PASS" already exists; SQL statement:
+CREATE TABLE TBL_VEHICLE_PASS ("UID" VARCHAR2(32) PRIMARY KEY, PLATE_NO VARCHAR2(50), PASS_TM DATE, COLOR VARCHAR2(50), CREATE_TM DATE, CREATE_BY VARCHAR2(50), UPDATE_TM DATE, UPDATE_BY VARCHAR2(50), VERSION NUMBER(38,0)) [42101-193]
+2017-01-12 16:14:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TBL_VEHICLE_PASS VALUES('0001','苏E00001',2017-01-12 06[*]:46:50.0,'Yellow',2017-01-12 06:47:00.0,'SYS',2017-01-12 06:47:05.0,SYS,'1')"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO TBL_VEHICLE_PASS VALUES('0001','苏E00001',2017-01-12 06:46:50.0,'Yellow',2017-01-12 06:47:00.0,'SYS',2017-01-12 06:47:05.0,SYS,'1') [42001-193]
+2017-01-12 16:14:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TBL_VEHICLE_PASS VALUES('0002','苏E00002',2017-01-12 06[*]:46:50.0,'Red',2017-01-12 06:47:00.0,'SYS',2017-01-12 06:47:05.0,SYS,'1')"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO TBL_VEHICLE_PASS VALUES('0002','苏E00002',2017-01-12 06:46:50.0,'Red',2017-01-12 06:47:00.0,'SYS',2017-01-12 06:47:05.0,SYS,'1') [42001-193]
+2017-01-12 16:34:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TBL_VEHICLE_PASS VALUES('0001','苏E00001',to_date('2017-01-12 06:46:50','YYYY-MM-DD HH24:MI:SS'),'Yellow',to_date('2017-01-12 06:47:00','YYYY-MM-DD HH24:MI:SS'),'SYS',to_date('2017-01-12 06:47:05','YYYY-MM-DD HH24:MI:SS'),[*]'SYS,1)"; SQL statement:
+INSERT INTO TBL_VEHICLE_PASS VALUES('0001','苏E00001',to_date('2017-01-12 06:46:50','YYYY-MM-DD HH24:MI:SS'),'Yellow',to_date('2017-01-12 06:47:00','YYYY-MM-DD HH24:MI:SS'),'SYS',to_date('2017-01-12 06:47:05','YYYY-MM-DD HH24:MI:SS'),'SYS,1) [42000-193]
+2017-01-12 16:34:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TBL_VEHICLE_PASS VALUES('0002','苏E00002',to_date('2017-01-12 06:46:50','YYYY-MM-DD HH24:MI:SS'),'Red',to_date('2017-01-12 06:47:00','YYYY-MM-DD HH24:MI:SS'),'SYS',to_date('2017-01-12 06:47:05','YYYY-MM-DD HH24:MI:SS'),[*]'SYS,1)"; SQL statement:
+INSERT INTO TBL_VEHICLE_PASS VALUES('0002','苏E00002',to_date('2017-01-12 06:46:50','YYYY-MM-DD HH24:MI:SS'),'Red',to_date('2017-01-12 06:47:00','YYYY-MM-DD HH24:MI:SS'),'SYS',to_date('2017-01-12 06:47:05','YYYY-MM-DD HH24:MI:SS'),'SYS,1) [42000-193]
+2017-01-12 16:50:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TBL_VEHICLE_PASS" already exists; SQL statement:
+CREATE TABLE TBL_VEHICLE_PASS ("UID" VARCHAR2(32) PRIMARY KEY, PLATE_NO VARCHAR2(50), PASS_TM DATE, COLOR VARCHAR2(50), CREATE_TM DATE, CREATE_BY VARCHAR2(50), UPDATE_TM DATE, UPDATE_BY VARCHAR2(50), VERSION NUMBER(38,0)) [42101-193]
+2017-01-12 17:25:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: The object is already closed [90007-193]
+2017-01-12 17:26:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: The object is already closed [90007-193]
+2017-01-12 17:28:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: The object is already closed [90007-193]

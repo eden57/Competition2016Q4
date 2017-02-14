@@ -1,0 +1,4 @@
+考官：
+     本程序执行维ETL脚本包和PGSQL脚本，ETL脚本需要在kettle下运行，PGSQL脚本需要在PG下运行
+     具体步骤在PGSQL脚本里有说明。
+     通过建立boundary_box及GIST空间索引，计算结果时间12分20秒。

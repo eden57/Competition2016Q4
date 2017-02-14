@@ -1,0 +1,12 @@
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\Bin\Debug\DictManage.exe
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\Bin\Debug\DictManage.pdb
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.csprojResolveAssemblyReference.cache
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.FormBatchInsert.resources
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.FormEncoder.resources
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.FormFind.resources
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.FormInputDictVersion.resources
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.FormMain.resources
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.Properties.Resources.resources
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.csproj.GenerateResource.Cache
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.exe
+E:\苏州园区工作\公司个人资料\技能竞赛\PanGuSegment-master\PanGuSegment-master\DictManage\obj\Debug\DictManage.pdb

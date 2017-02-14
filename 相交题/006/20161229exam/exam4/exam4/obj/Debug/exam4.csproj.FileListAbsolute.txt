@@ -1,0 +1,10 @@
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\bin\Debug\exam4.exe.config
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\bin\Debug\exam4.exe
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\bin\Debug\exam4.pdb
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\obj\Debug\exam4.csprojResolveAssemblyReference.cache
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\obj\Debug\exam4.FrmMain.resources
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\obj\Debug\exam4.Properties.Resources.resources
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\obj\Debug\exam4.csproj.GenerateResource.Cache
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\obj\Debug\exam4.exe
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\obj\Debug\exam4.pdb
+C:\Users\jiangtao.SIPSD\Desktop\20161229exam\exam4\exam4\obj\Debug\exam4.FrmIntersect.resources

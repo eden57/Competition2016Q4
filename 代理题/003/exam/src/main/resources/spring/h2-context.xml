@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans    
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd    
+	http://www.springframework.org/schema/context    
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd    
+	http://www.springframework.org/schema/tx    
+	http://www.springframework.org/schema/tx/spring-tx-4.0.xsd    
+	http://www.springframework.org/schema/aop    
+	http://www.springframework.org/schema/aop/spring-aop-4.0.xsd    
+	http://www.springframework.org/schema/util     
+	http://www.springframework.org/schema/util/spring-util-4.0.xsd
+	http://www.springframework.org/schema/jdbc 
+	http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd">
+	<!-- 
+	<jdbc:embedded-database id="dataSource" type="H2">
+		<jdbc:script location="classpath:db/sql/create-table.sql" />
+		<jdbc:script location="classpath:db/sql/import-data.sql" />
+	</jdbc:embedded-database>
+	-->
+	
+	<bean id="h2Ds" class="org.h2.jdbcx.JdbcConnectionPool" destroy-method="dispose">
+        <constructor-arg>
+            <bean class="org.h2.jdbcx.JdbcDataSource">
+                <!-- 内存模式 -->
+                <property name="URL" value="jdbc:h2:mem:test" />
+                <!-- 文件模式 
+                <property name="URL" value="jdbc:h2:testRestDB" /> 
+                -->
+                <property name="user" value="sa" />
+                <property name="password" value="sa" />
+            </bean>
+        </constructor-arg>
+	</bean>
+	
+    <jdbc:initialize-database data-source="h2Ds" ignore-failures="ALL">
+        <jdbc:script location="classpath:h2/create-table.sql" />
+        <jdbc:script location="classpath:h2/import-data.sql" />
+    </jdbc:initialize-database>
+     
+	<bean id="h2NamedJdbcTmplt" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+		<constructor-arg ref="h2Ds" />
+	</bean>
+
+</beans>

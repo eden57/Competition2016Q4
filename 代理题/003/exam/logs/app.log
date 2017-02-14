@@ -1,0 +1,767 @@
+2017-01-12 14:14:07,934 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e156bbf: startup date [Thu Jan 12 14:14:07 CST 2017]; root of context hierarchy
+2017-01-12 14:14:08,003 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:14:08,270 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:14:08,299 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:14:08,337 [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(749){} - Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [org.apache.commons.dbcp.BasicDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring/dbcp-context.xml]] with [Generic bean: class [org.h2.jdbcx.JdbcConnectionPool]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=dispose; defined in class path resource [spring/h2-context.xml]]
+2017-01-12 14:14:08,449 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:14:08,778 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:14:08,785 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 7 ms.
+2017-01-12 14:14:08,786 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:14:08,787 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 1 ms.
+2017-01-12 14:14:10,699 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - 查询开始!
+2017-01-12 14:36:08,809 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e156bbf: startup date [Thu Jan 12 14:36:08 CST 2017]; root of context hierarchy
+2017-01-12 14:36:08,878 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:36:09,163 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:36:09,201 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:36:30,493 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e834c87: startup date [Thu Jan 12 14:36:30 CST 2017]; root of context hierarchy
+2017-01-12 14:36:30,560 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:36:30,840 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:36:30,880 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:36:31,071 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:36:31,556 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:36:31,563 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 7 ms.
+2017-01-12 14:36:31,563 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:36:31,565 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 2 ms.
+2017-01-12 14:36:33,550 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - 查询开始!
+2017-01-12 14:36:33,601 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-01-12 14:36:33,639 [main] INFO  org.springframework.jdbc.support.SQLErrorCodesFactory(126){} - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-01-12 14:37:04,835 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e156bbf: startup date [Thu Jan 12 14:37:04 CST 2017]; root of context hierarchy
+2017-01-12 14:37:04,902 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:37:05,194 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:37:05,230 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:37:05,407 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:37:05,899 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:37:05,907 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 7 ms.
+2017-01-12 14:37:05,907 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:37:05,908 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 1 ms.
+2017-01-12 14:37:12,600 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - 查询开始!
+2017-01-12 14:37:15,335 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-01-12 14:37:15,486 [main] INFO  org.springframework.jdbc.support.SQLErrorCodesFactory(126){} - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-01-12 14:37:47,414 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e156bbf: startup date [Thu Jan 12 14:37:47 CST 2017]; root of context hierarchy
+2017-01-12 14:37:47,483 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:37:47,758 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:37:47,787 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:37:47,974 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:37:48,482 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:37:48,490 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 8 ms.
+2017-01-12 14:37:48,490 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:37:48,492 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 2 ms.
+2017-01-12 14:38:00,289 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - 查询开始!
+2017-01-12 14:38:01,770 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-01-12 14:38:01,926 [main] INFO  org.springframework.jdbc.support.SQLErrorCodesFactory(126){} - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-01-12 14:40:02,274 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4055010f: startup date [Thu Jan 12 14:40:02 CST 2017]; root of context hierarchy
+2017-01-12 14:40:02,358 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:40:02,675 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:40:02,714 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:40:02,941 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:40:03,483 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:40:03,497 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 14 ms.
+2017-01-12 14:40:03,497 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:40:03,508 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 11 ms.
+2017-01-12 14:40:05,271 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - 查询开始!
+2017-01-12 14:44:09,806 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cb8a0c8: startup date [Thu Jan 12 14:44:09 CST 2017]; root of context hierarchy
+2017-01-12 14:44:09,875 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:44:10,140 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:44:10,169 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:44:10,358 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:44:10,878 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:44:10,889 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 10 ms.
+2017-01-12 14:44:10,889 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:44:10,899 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 10 ms.
+2017-01-12 14:44:14,619 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - 查询开始!
+2017-01-12 14:46:10,884 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73600b34: startup date [Thu Jan 12 14:46:10 CST 2017]; root of context hierarchy
+2017-01-12 14:46:10,949 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:46:11,198 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:46:11,234 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:46:11,403 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:46:11,822 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:46:11,832 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 10 ms.
+2017-01-12 14:46:11,832 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:46:11,841 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 8 ms.
+2017-01-12 14:46:11,848 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - Service查询开始!
+2017-01-12 14:46:12,246 [main] INFO  com.geone.exam.svs.VehiclePassService(32){} - Service查询结束, 查询结果:0
+2017-01-12 14:47:17,033 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@267fbe19: startup date [Thu Jan 12 14:47:17 CST 2017]; root of context hierarchy
+2017-01-12 14:47:17,099 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:47:17,354 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:47:17,382 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:47:17,528 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:47:17,943 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:47:17,953 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 10 ms.
+2017-01-12 14:47:17,953 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:47:17,961 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 8 ms.
+2017-01-12 14:47:17,967 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - Service查询开始!
+2017-01-12 14:47:18,364 [main] INFO  com.geone.exam.svs.VehiclePassService(32){} - Service查询结束, 查询结果:1
+2017-01-12 14:47:44,779 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4055010f: startup date [Thu Jan 12 14:47:44 CST 2017]; root of context hierarchy
+2017-01-12 14:47:44,835 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:47:45,102 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:47:45,139 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:47:45,315 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:47:45,792 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:47:45,802 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 10 ms.
+2017-01-12 14:47:45,803 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:47:45,812 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 9 ms.
+2017-01-12 14:47:48,770 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - Service查询开始!
+2017-01-12 14:47:50,525 [main] INFO  com.geone.exam.svs.VehiclePassService(32){} - Service查询结束, 查询结果:2
+2017-01-12 14:49:54,343 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b8d343a: startup date [Thu Jan 12 14:49:54 CST 2017]; root of context hierarchy
+2017-01-12 14:49:54,409 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 14:49:54,661 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 14:49:54,697 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 14:49:54,849 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 14:49:55,262 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 14:49:55,272 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 10 ms.
+2017-01-12 14:49:55,272 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 14:49:55,280 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 8 ms.
+2017-01-12 14:49:55,285 [main] INFO  com.geone.exam.svs.VehiclePassService(30){} - Service查询开始!
+2017-01-12 14:49:55,308 [main] INFO  com.geone.exam.svs.VehiclePassService(32){} - Service查询结束, 查询结果:1
+2017-01-12 15:21:41,758 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cb8a0c8: startup date [Thu Jan 12 15:21:41 CST 2017]; root of context hierarchy
+2017-01-12 15:21:41,832 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:21:42,102 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:21:42,135 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:21:42,325 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:21:42,843 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:21:42,862 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 19 ms.
+2017-01-12 15:21:42,862 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:21:42,873 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 11 ms.
+2017-01-12 15:21:48,042 [main] INFO  com.geone.exam.svs.VehiclePassService(33){} - Service查询开始!
+2017-01-12 15:22:06,821 [main] INFO  com.geone.exam.svs.VehiclePassService(38){} - Service查询结束, 查询结果:1
+2017-01-12 15:22:13,927 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e156bbf: startup date [Thu Jan 12 15:22:13 CST 2017]; root of context hierarchy
+2017-01-12 15:22:13,997 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:22:14,259 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:22:14,297 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:22:14,486 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:22:14,948 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:22:14,958 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 10 ms.
+2017-01-12 15:22:14,958 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:22:14,967 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 8 ms.
+2017-01-12 15:22:15,849 [main] INFO  com.geone.exam.svs.VehiclePassService(33){} - Service查询开始!
+2017-01-12 15:22:20,606 [main] INFO  com.geone.exam.svs.VehiclePassService(38){} - Service查询结束, 查询结果:1
+2017-01-12 15:22:24,184 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d43b0fe: startup date [Thu Jan 12 15:22:24 CST 2017]; root of context hierarchy
+2017-01-12 15:22:24,240 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:22:24,534 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:22:24,563 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:22:24,758 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:22:25,232 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:22:25,245 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 12 ms.
+2017-01-12 15:22:25,245 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:22:25,254 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 9 ms.
+2017-01-12 15:22:26,276 [main] INFO  com.geone.exam.svs.VehiclePassService(33){} - Service查询开始!
+2017-01-12 15:36:44,414 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7133b288: startup date [Thu Jan 12 15:36:44 CST 2017]; root of context hierarchy
+2017-01-12 15:36:44,477 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:36:44,719 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:36:44,754 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:36:44,930 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:36:45,345 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:36:45,354 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 9 ms.
+2017-01-12 15:36:45,355 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:36:45,363 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 8 ms.
+2017-01-12 15:36:45,369 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:36:45,392 [main] INFO  com.geone.exam.dao.VehiclePassDao(36){} - 采用H2 数据源!
+2017-01-12 15:36:45,398 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:1
+2017-01-12 15:37:07,803 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@790e38c7: startup date [Thu Jan 12 15:37:07 CST 2017]; root of context hierarchy
+2017-01-12 15:37:07,866 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:37:08,125 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:37:08,169 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:37:08,330 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:37:08,779 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:37:08,793 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 13 ms.
+2017-01-12 15:37:08,793 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:37:08,806 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 13 ms.
+2017-01-12 15:37:08,813 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:37:08,834 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-01-12 15:37:08,874 [main] INFO  org.springframework.jdbc.support.SQLErrorCodesFactory(126){} - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-01-12 15:37:08,880 [main] INFO  com.geone.exam.dao.VehiclePassDao(53){} - H2 数据源故障!
+2017-01-12 15:37:09,278 [main] INFO  com.geone.exam.dao.VehiclePassDao(39){} - 采用Oracle 数据源!
+2017-01-12 15:37:09,289 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:2
+2017-01-12 15:37:32,785 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14b1cee8: startup date [Thu Jan 12 15:37:32 CST 2017]; root of context hierarchy
+2017-01-12 15:37:32,849 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:37:33,094 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:37:33,137 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:37:33,320 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:37:33,773 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:37:33,788 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 14 ms.
+2017-01-12 15:37:33,789 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:37:33,799 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 10 ms.
+2017-01-12 15:37:33,806 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:37:33,829 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-01-12 15:37:33,872 [main] INFO  org.springframework.jdbc.support.SQLErrorCodesFactory(126){} - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-01-12 15:37:33,877 [main] INFO  com.geone.exam.dao.VehiclePassDao(55){} - H2 数据源故障!
+2017-01-12 15:37:34,255 [main] INFO  com.geone.exam.dao.VehiclePassDao(39){} - 采用Oracle 数据源!
+2017-01-12 15:37:34,266 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:2
+2017-01-12 15:37:49,894 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@790e38c7: startup date [Thu Jan 12 15:37:49 CST 2017]; root of context hierarchy
+2017-01-12 15:37:49,960 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:37:50,199 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:37:50,234 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:37:50,386 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:37:50,826 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:37:50,840 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 13 ms.
+2017-01-12 15:37:50,840 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:37:50,853 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 13 ms.
+2017-01-12 15:37:50,861 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:37:50,883 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-01-12 15:37:50,923 [main] INFO  org.springframework.jdbc.support.SQLErrorCodesFactory(126){} - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-01-12 15:37:50,929 [main] ERROR com.geone.exam.dao.VehiclePassDao(55){} - H2 数据源故障!
+2017-01-12 15:37:51,334 [main] INFO  com.geone.exam.dao.VehiclePassDao(39){} - 采用Oracle 数据源!
+2017-01-12 15:37:51,345 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:2
+2017-01-12 15:39:04,255 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemProperties] PropertySource with lowest search precedence
+2017-01-12 15:39:04,261 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-01-12 15:39:04,262 [main] DEBUG org.springframework.core.env.StandardEnvironment(126){} - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-01-12 15:39:04,265 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext(513){} - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@411167f3: startup date [Thu Jan 12 15:39:04 CST 2017]; root of context hierarchy
+2017-01-12 15:39:04,312 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemProperties] PropertySource with lowest search precedence
+2017-01-12 15:39:04,312 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-01-12 15:39:04,313 [main] DEBUG org.springframework.core.env.StandardEnvironment(126){} - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-01-12 15:39:04,330 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/app-ctx.xml]
+2017-01-12 15:39:04,351 [main] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader(73){} - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-01-12 15:39:04,389 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(141){} - Loading schema mappings from [META-INF/spring.schemas]
+2017-01-12 15:39:04,396 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(147){} - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+2017-01-12 15:39:04,398 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(119){} - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-01-12 15:39:04,469 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(119){} - Found XML schema [http://www.springframework.org/schema/context/spring-context-4.0.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+2017-01-12 15:39:04,482 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(119){} - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2017-01-12 15:39:04,502 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader(108){} - Loading bean definitions
+2017-01-12 15:39:04,515 [main] DEBUG org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver(157){} - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-01-12 15:39:04,555 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemProperties] PropertySource with lowest search precedence
+2017-01-12 15:39:04,555 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-01-12 15:39:04,555 [main] DEBUG org.springframework.core.env.StandardEnvironment(126){} - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-01-12 15:39:04,572 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(556){} - Looking for matching resources in directory tree [D:\Develop\SourceCode\exam\target\test-classes\com\geone]
+2017-01-12 15:39:04,572 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\test-classes\com\geone] for files matching pattern [D:/Develop/SourceCode/exam/target/test-classes/com/geone/**/*.class]
+2017-01-12 15:39:04,574 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\test-classes\com\geone\exam] for files matching pattern [D:/Develop/SourceCode/exam/target/test-classes/com/geone/**/*.class]
+2017-01-12 15:39:04,575 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(556){} - Looking for matching resources in directory tree [D:\Develop\SourceCode\exam\target\classes\com\geone]
+2017-01-12 15:39:04,575 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\classes\com\geone] for files matching pattern [D:/Develop/SourceCode/exam/target/classes/com/geone/**/*.class]
+2017-01-12 15:39:04,576 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\classes\com\geone\exam] for files matching pattern [D:/Develop/SourceCode/exam/target/classes/com/geone/**/*.class]
+2017-01-12 15:39:04,576 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\dao] for files matching pattern [D:/Develop/SourceCode/exam/target/classes/com/geone/**/*.class]
+2017-01-12 15:39:04,577 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\job] for files matching pattern [D:/Develop/SourceCode/exam/target/classes/com/geone/**/*.class]
+2017-01-12 15:39:04,578 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\model] for files matching pattern [D:/Develop/SourceCode/exam/target/classes/com/geone/**/*.class]
+2017-01-12 15:39:04,579 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\svs] for files matching pattern [D:/Develop/SourceCode/exam/target/classes/com/geone/**/*.class]
+2017-01-12 15:39:04,579 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(618){} - Searching directory [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\utils] for files matching pattern [D:/Develop/SourceCode/exam/target/classes/com/geone/**/*.class]
+2017-01-12 15:39:04,580 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver(357){} - Resolved location pattern [classpath*:com/geone/**/*.class] to resources [file [D:\Develop\SourceCode\exam\target\test-classes\com\geone\exam\AppTest.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\App.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\dao\BaseDao.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\dao\MonitorDao.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\dao\VehiclePassDao.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\job\SyncDataTask.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\model\VehiclePass.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\svs\VehiclePassService.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\utils\DataSourceHandler.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\utils\DataSourceProxy.class], file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\utils\DSFaultException.class]]
+2017-01-12 15:39:04,609 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner(284){} - Identified candidate component class: file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\dao\BaseDao.class]
+2017-01-12 15:39:04,610 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner(284){} - Identified candidate component class: file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\dao\MonitorDao.class]
+2017-01-12 15:39:04,611 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner(284){} - Identified candidate component class: file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\dao\VehiclePassDao.class]
+2017-01-12 15:39:04,613 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner(284){} - Identified candidate component class: file [D:\Develop\SourceCode\exam\target\classes\com\geone\exam\svs\VehiclePassService.class]
+2017-01-12 15:39:04,623 [main] DEBUG org.springframework.beans.factory.xml.BeanDefinitionParserDelegate(495){} - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]
+2017-01-12 15:39:04,624 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/dbcp-context.xml]
+2017-01-12 15:39:04,625 [main] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader(73){} - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-01-12 15:39:04,627 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(119){} - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-01-12 15:39:04,657 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader(108){} - Loading bean definitions
+2017-01-12 15:39:04,662 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader(223){} - Loaded 3 bean definitions from location pattern [classpath:spring/dbcp-context.xml]
+2017-01-12 15:39:04,663 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader(244){} - Imported 3 bean definitions from URL location [classpath:spring/dbcp-context.xml]
+2017-01-12 15:39:04,664 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [spring/h2-context.xml]
+2017-01-12 15:39:04,666 [main] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader(73){} - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-01-12 15:39:04,671 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(119){} - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-01-12 15:39:04,692 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(119){} - Found XML schema [http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd] in classpath: org/springframework/jdbc/config/spring-jdbc-4.0.xsd
+2017-01-12 15:39:04,696 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver(119){} - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2017-01-12 15:39:04,700 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader(108){} - Loading bean definitions
+2017-01-12 15:39:04,701 [main] DEBUG org.springframework.beans.factory.xml.BeanDefinitionParserDelegate(495){} - Neither XML 'id' nor 'name' specified - using generated bean name [org.h2.jdbcx.JdbcDataSource#5bc11082]
+2017-01-12 15:39:04,709 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader(223){} - Loaded 4 bean definitions from location pattern [classpath:spring/h2-context.xml]
+2017-01-12 15:39:04,709 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader(244){} - Imported 4 bean definitions from URL location [classpath:spring/h2-context.xml]
+2017-01-12 15:39:04,710 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader(223){} - Loaded 16 bean definitions from location pattern [classpath:spring/app-ctx.xml]
+2017-01-12 15:39:04,710 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext(543){} - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@411167f3: org.springframework.beans.factory.support.DefaultListableBeanFactory@60d6d6d4: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,baseDao,monitorDao,vehiclePassDao,vehiclePassService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,oraDs,oraNamedJdbcTmplt,oraJdbcTmplt,h2DS,org.springframework.jdbc.datasource.init.DataSourceInitializer#0,h2NamedJdbcTmplt,h2JdbcTmplt]; root of factory hierarchy
+2017-01-12 15:39:04,732 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-01-12 15:39:04,732 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-01-12 15:39:04,753 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-01-12 15:39:04,756 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-01-12 15:39:04,803 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2017-01-12 15:39:04,803 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2017-01-12 15:39:04,805 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2017-01-12 15:39:04,849 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2017-01-12 15:39:04,850 [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(172){} - Loading properties file from URL [file:/D:/Develop/SourceCode/exam/target/classes/jdbc.properties]
+2017-01-12 15:39:04,857 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-01-12 15:39:04,857 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-01-12 15:39:04,858 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-01-12 15:39:04,859 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-01-12 15:39:04,859 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-01-12 15:39:04,859 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-01-12 15:39:04,860 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-01-12 15:39:04,860 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-01-12 15:39:04,861 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-01-12 15:39:04,861 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-01-12 15:39:04,866 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-01-12 15:39:04,866 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-01-12 15:39:04,867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-01-12 15:39:04,867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-01-12 15:39:04,867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-01-12 15:39:04,867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-01-12 15:39:04,867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-01-12 15:39:04,867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-01-12 15:39:04,868 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-01-12 15:39:04,868 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-01-12 15:39:04,870 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext(649){} - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@5cb74f11]
+2017-01-12 15:39:04,873 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext(673){} - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4e0bea2c]
+2017-01-12 15:39:04,877 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(672){} - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60d6d6d4: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,baseDao,monitorDao,vehiclePassDao,vehiclePassService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,oraDs,oraNamedJdbcTmplt,oraJdbcTmplt,h2DS,org.springframework.jdbc.datasource.init.DataSourceInitializer#0,h2NamedJdbcTmplt,h2JdbcTmplt,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2017-01-12 15:39:04,877 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-01-12 15:39:04,877 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-01-12 15:39:04,877 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-01-12 15:39:04,877 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-01-12 15:39:04,878 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'baseDao'
+2017-01-12 15:39:04,878 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'baseDao'
+2017-01-12 15:39:04,886 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.BaseDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.h2NamedJdbcTmplt
+2017-01-12 15:39:04,886 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.BaseDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.oraNamedJdbcTmplt
+2017-01-12 15:39:04,887 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'baseDao' to allow for resolving potential circular references
+2017-01-12 15:39:04,890 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'baseDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.h2NamedJdbcTmplt
+2017-01-12 15:39:04,890 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'h2NamedJdbcTmplt'
+2017-01-12 15:39:04,891 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'h2NamedJdbcTmplt'
+2017-01-12 15:39:04,895 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'h2DS'
+2017-01-12 15:39:04,895 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'h2DS'
+2017-01-12 15:39:04,897 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.h2.jdbcx.JdbcDataSource#5bc11082'
+2017-01-12 15:39:05,015 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.h2.jdbcx.JdbcDataSource#5bc11082'
+2017-01-12 15:39:05,022 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'h2DS' to allow for resolving potential circular references
+2017-01-12 15:39:05,027 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'h2DS'
+2017-01-12 15:39:05,042 [main] DEBUG org.springframework.beans.BeanUtils(441){} - No property editor [org.springframework.jdbc.core.JdbcOperationsEditor] found for type org.springframework.jdbc.core.JdbcOperations according to 'Editor' suffix convention
+2017-01-12 15:39:05,052 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'h2NamedJdbcTmplt' to allow for resolving potential circular references
+2017-01-12 15:39:05,059 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'h2NamedJdbcTmplt'
+2017-01-12 15:39:05,060 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'baseDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.oraNamedJdbcTmplt
+2017-01-12 15:39:05,060 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'oraNamedJdbcTmplt'
+2017-01-12 15:39:05,060 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'oraNamedJdbcTmplt'
+2017-01-12 15:39:05,060 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'oraDs'
+2017-01-12 15:39:05,060 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'oraDs'
+2017-01-12 15:39:05,067 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'oraDs' to allow for resolving potential circular references
+2017-01-12 15:39:05,082 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'oraDs'
+2017-01-12 15:39:05,085 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'oraNamedJdbcTmplt' to allow for resolving potential circular references
+2017-01-12 15:39:05,085 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'oraNamedJdbcTmplt'
+2017-01-12 15:39:05,086 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'baseDao'
+2017-01-12 15:39:05,086 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'monitorDao'
+2017-01-12 15:39:05,086 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'monitorDao'
+2017-01-12 15:39:05,087 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.MonitorDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.h2NamedJdbcTmplt
+2017-01-12 15:39:05,087 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.MonitorDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.oraNamedJdbcTmplt
+2017-01-12 15:39:05,088 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.MonitorDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.MonitorDao.h2NamedJdbcTmplt
+2017-01-12 15:39:05,088 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.MonitorDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.MonitorDao.oraNamedJdbcTmplt
+2017-01-12 15:39:05,089 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'monitorDao' to allow for resolving potential circular references
+2017-01-12 15:39:05,091 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'monitorDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.h2NamedJdbcTmplt
+2017-01-12 15:39:05,091 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'h2NamedJdbcTmplt'
+2017-01-12 15:39:05,091 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'monitorDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.oraNamedJdbcTmplt
+2017-01-12 15:39:05,092 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'oraNamedJdbcTmplt'
+2017-01-12 15:39:05,092 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'monitorDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.MonitorDao.h2NamedJdbcTmplt
+2017-01-12 15:39:05,092 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'h2NamedJdbcTmplt'
+2017-01-12 15:39:05,092 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'monitorDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.MonitorDao.oraNamedJdbcTmplt
+2017-01-12 15:39:05,092 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'oraNamedJdbcTmplt'
+2017-01-12 15:39:05,093 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'monitorDao'
+2017-01-12 15:39:05,093 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'vehiclePassDao'
+2017-01-12 15:39:05,093 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'vehiclePassDao'
+2017-01-12 15:39:05,094 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.VehiclePassDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.h2NamedJdbcTmplt
+2017-01-12 15:39:05,095 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.dao.VehiclePassDao]: ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.oraNamedJdbcTmplt
+2017-01-12 15:39:05,096 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'vehiclePassDao' to allow for resolving potential circular references
+2017-01-12 15:39:05,099 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'vehiclePassDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.h2NamedJdbcTmplt
+2017-01-12 15:39:05,099 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'h2NamedJdbcTmplt'
+2017-01-12 15:39:05,099 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'vehiclePassDao': ResourceElement for private org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate com.geone.exam.dao.BaseDao.oraNamedJdbcTmplt
+2017-01-12 15:39:05,099 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'oraNamedJdbcTmplt'
+2017-01-12 15:39:05,100 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'vehiclePassDao'
+2017-01-12 15:39:05,100 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'vehiclePassService'
+2017-01-12 15:39:05,100 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'vehiclePassService'
+2017-01-12 15:39:05,109 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.svs.VehiclePassService]: AutowiredFieldElement for private com.geone.exam.dao.MonitorDao com.geone.exam.svs.VehiclePassService.monitorDao
+2017-01-12 15:39:05,110 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(71){} - Registered injected element on class [com.geone.exam.svs.VehiclePassService]: AutowiredFieldElement for private com.geone.exam.dao.VehiclePassDao com.geone.exam.svs.VehiclePassService.vehiclePassDao
+2017-01-12 15:39:05,110 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'vehiclePassService' to allow for resolving potential circular references
+2017-01-12 15:39:05,111 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'vehiclePassService': AutowiredFieldElement for private com.geone.exam.dao.MonitorDao com.geone.exam.svs.VehiclePassService.monitorDao
+2017-01-12 15:39:05,114 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'monitorDao'
+2017-01-12 15:39:05,114 [main] DEBUG org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(427){} - Autowiring by type from bean name 'vehiclePassService' to bean named 'monitorDao'
+2017-01-12 15:39:05,114 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata(85){} - Processing injected method of bean 'vehiclePassService': AutowiredFieldElement for private com.geone.exam.dao.VehiclePassDao com.geone.exam.svs.VehiclePassService.vehiclePassDao
+2017-01-12 15:39:05,115 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'vehiclePassDao'
+2017-01-12 15:39:05,115 [main] DEBUG org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(427){} - Autowiring by type from bean name 'vehiclePassService' to bean named 'vehiclePassDao'
+2017-01-12 15:39:05,115 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'vehiclePassService'
+2017-01-12 15:39:05,115 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2017-01-12 15:39:05,115 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'oraDs'
+2017-01-12 15:39:05,115 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'oraNamedJdbcTmplt'
+2017-01-12 15:39:05,116 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'oraJdbcTmplt'
+2017-01-12 15:39:05,116 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'oraJdbcTmplt'
+2017-01-12 15:39:05,116 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'oraDs'
+2017-01-12 15:39:05,128 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'oraJdbcTmplt' to allow for resolving potential circular references
+2017-01-12 15:39:05,141 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(1595){} - Invoking afterPropertiesSet() on bean with name 'oraJdbcTmplt'
+2017-01-12 15:39:05,142 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'oraJdbcTmplt'
+2017-01-12 15:39:05,142 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'h2DS'
+2017-01-12 15:39:05,142 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'org.springframework.jdbc.datasource.init.DataSourceInitializer#0'
+2017-01-12 15:39:05,142 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'org.springframework.jdbc.datasource.init.DataSourceInitializer#0'
+2017-01-12 15:39:05,143 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'org.springframework.jdbc.datasource.init.DataSourceInitializer#0' to allow for resolving potential circular references
+2017-01-12 15:39:05,147 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'h2DS'
+2017-01-12 15:39:05,148 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean '(inner bean)#19d244d9'
+2017-01-12 15:39:05,152 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean '(inner bean)#10b06ac3'
+2017-01-12 15:39:05,158 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean '(inner bean)#2b46c61f'
+2017-01-12 15:39:05,161 [main] DEBUG org.springframework.beans.BeanUtils(441){} - No property editor [org.springframework.core.io.ResourceLoaderEditor] found for type org.springframework.core.io.ResourceLoader according to 'Editor' suffix convention
+2017-01-12 15:39:05,178 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(1595){} - Invoking afterPropertiesSet() on bean with name '(inner bean)#2b46c61f'
+2017-01-12 15:39:05,180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean '(inner bean)#2b46c61f'
+2017-01-12 15:39:05,180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean '(inner bean)#10b06ac3'
+2017-01-12 15:39:05,181 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean '(inner bean)#99d83c7'
+2017-01-12 15:39:05,182 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean '(inner bean)#443682bf'
+2017-01-12 15:39:05,185 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(1595){} - Invoking afterPropertiesSet() on bean with name '(inner bean)#443682bf'
+2017-01-12 15:39:05,185 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean '(inner bean)#443682bf'
+2017-01-12 15:39:05,186 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean '(inner bean)#99d83c7'
+2017-01-12 15:39:05,187 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean '(inner bean)#19d244d9'
+2017-01-12 15:39:05,187 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean '(inner bean)#559356b2'
+2017-01-12 15:39:05,188 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean '(inner bean)#559356b2'
+2017-01-12 15:39:05,189 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(1595){} - Invoking afterPropertiesSet() on bean with name 'org.springframework.jdbc.datasource.init.DataSourceInitializer#0'
+2017-01-12 15:39:05,197 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(110){} - Fetching JDBC Connection from DataSource
+2017-01-12 15:39:05,376 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/create-table.sql]
+2017-01-12 15:39:05,381 [main] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils(469){} - Failed to execute SQL script statement at line 1 of resource class path resource [h2/create-table.sql]: DROP TABLE "TBL_VEHICLE_PASS" cascade constraints
+org.h2.jdbc.JdbcSQLException: Table "TBL_VEHICLE_PASS" not found; SQL statement:
+DROP TABLE "TBL_VEHICLE_PASS" cascade constraints [42102-193]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:69)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:113)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:98)
+	at org.h2.command.Command.executeUpdate(Command.java:258)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:184)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:459)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:208)
+	at org.springframework.jdbc.datasource.init.CompositeDatabasePopulator.populate(CompositeDatabasePopulator.java:61)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:108)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:93)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.geone.exam.App.main(App.java:21)
+2017-01-12 15:39:05,385 [main] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils(462){} - 0 returned as updateCount for SQL: CREATE TABLE "TBL_VEHICLE_PASS" ( "UID" VARCHAR2(32), "PLATE_NO" VARCHAR2(50), "PASS_TM" DATE, "COLOR" VARCHAR2(50), "CREATE_TM" DATE, "CREATE_BY" VARCHAR2(50), "UPDATE_TM" DATE, "UPDATE_BY" VARCHAR2(50), "VERSION" INTEGER ) 
+2017-01-12 15:39:05,389 [main] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils(462){} - 0 returned as updateCount for SQL: CREATE UNIQUE INDEX "PK_TBL_VEHICLE_PASS" ON "TBL_VEHICLE_PASS" ("UID") 
+2017-01-12 15:39:05,391 [main] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils(469){} - Failed to execute SQL script statement at line 4 of resource class path resource [h2/create-table.sql]: ALTER TABLE "TBL_VEHICLE_PASS" ADD CONSTRAINT "PK_TBL_VEHICLE_PASS" PRIMARY KEY ("UID") ENABLE
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""TBL_VEHICLE_PASS"" ADD CONSTRAINT ""PK_TBL_VEHICLE_PASS"" PRIMARY KEY (""UID"") ENABLE[*]"; SQL statement:
+ALTER TABLE "TBL_VEHICLE_PASS" ADD CONSTRAINT "PK_TBL_VEHICLE_PASS" PRIMARY KEY ("UID") ENABLE [42000-193]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:191)
+	at org.h2.command.Parser.getSyntaxError(Parser.java:530)
+	at org.h2.command.Parser.prepareCommand(Parser.java:257)
+	at org.h2.engine.Session.prepareLocal(Session.java:561)
+	at org.h2.engine.Session.prepareCommand(Session.java:502)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1203)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:459)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:208)
+	at org.springframework.jdbc.datasource.init.CompositeDatabasePopulator.populate(CompositeDatabasePopulator.java:61)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:108)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:93)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.geone.exam.App.main(App.java:21)
+2017-01-12 15:39:05,392 [main] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils(469){} - Failed to execute SQL script statement at line 5 of resource class path resource [h2/create-table.sql]: ALTER TABLE "TBL_VEHICLE_PASS" MODIFY ("UID" NOT NULL ENABLE)
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""TBL_VEHICLE_PASS"" MODIFY ([*]""UID"" NOT NULL ENABLE)"; expected "identifier"; SQL statement:
+ALTER TABLE "TBL_VEHICLE_PASS" MODIFY ("UID" NOT NULL ENABLE) [42001-193]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:205)
+	at org.h2.command.Parser.readColumnIdentifier(Parser.java:3175)
+	at org.h2.command.Parser.parseAlterTable(Parser.java:5580)
+	at org.h2.command.Parser.parseAlter(Parser.java:4844)
+	at org.h2.command.Parser.parsePrepared(Parser.java:344)
+	at org.h2.command.Parser.parse(Parser.java:317)
+	at org.h2.command.Parser.parse(Parser.java:289)
+	at org.h2.command.Parser.prepareCommand(Parser.java:254)
+	at org.h2.engine.Session.prepareLocal(Session.java:561)
+	at org.h2.engine.Session.prepareCommand(Session.java:502)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1203)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:459)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:208)
+	at org.springframework.jdbc.datasource.init.CompositeDatabasePopulator.populate(CompositeDatabasePopulator.java:61)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:108)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:93)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.geone.exam.App.main(App.java:21)
+2017-01-12 15:39:05,393 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/create-table.sql] in 16 ms.
+2017-01-12 15:39:05,393 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(431){} - Executing SQL script from class path resource [h2/import-data.sql]
+2017-01-12 15:39:05,403 [main] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils(462){} - 1 returned as updateCount for SQL: Insert into TBL_VEHICLE_PASS ("UID", PLATE_NO,PASS_TM,COLOR,CREATE_TM,CREATE_BY,UPDATE_TM,UPDATE_BY,VERSION) values ('0001', '苏E00001',PARSEDATETIME('2017-01-01 00:00:00', 'yyyy-MM-dd HH:mm:ss'),'黄',PARSEDATETIME('2017-01-01 00:00:00', 'yyyy-MM-dd HH:mm:ss'),'SYS',PARSEDATETIME('2017-01-01 00:00:00', 'yyyy-MM-dd HH:mm:ss'),'SYS',1)
+2017-01-12 15:39:05,404 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils(490){} - Executed SQL script from class path resource [h2/import-data.sql] in 11 ms.
+2017-01-12 15:39:05,404 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(327){} - Returning JDBC Connection to DataSource
+2017-01-12 15:39:05,405 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'org.springframework.jdbc.datasource.init.DataSourceInitializer#0'
+2017-01-12 15:39:05,405 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'h2NamedJdbcTmplt'
+2017-01-12 15:39:05,405 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'h2JdbcTmplt'
+2017-01-12 15:39:05,405 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'h2JdbcTmplt'
+2017-01-12 15:39:05,406 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'h2DS'
+2017-01-12 15:39:05,408 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'h2JdbcTmplt' to allow for resolving potential circular references
+2017-01-12 15:39:05,408 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(1595){} - Invoking afterPropertiesSet() on bean with name 'h2JdbcTmplt'
+2017-01-12 15:39:05,409 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'h2JdbcTmplt'
+2017-01-12 15:39:05,409 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-01-12 15:39:05,409 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-01-12 15:39:05,410 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext(700){} - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@73077dab]
+2017-01-12 15:39:05,411 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-01-12 15:39:05,413 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver(81){} - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-01-12 15:39:05,413 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver(81){} - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-01-12 15:39:05,414 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver(103){} - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-01-12 15:39:05,414 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(247){} - Returning cached instance of singleton bean 'vehiclePassService'
+2017-01-12 15:39:08,303 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:39:13,379 [main] DEBUG org.springframework.jdbc.core.JdbcTemplate(693){} - Executing prepared SQL query
+2017-01-12 15:39:13,381 [main] DEBUG org.springframework.jdbc.core.JdbcTemplate(627){} - Executing prepared SQL statement [SELECT 1 FROM XXXX]
+2017-01-12 15:39:13,381 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(110){} - Fetching JDBC Connection from DataSource
+2017-01-12 15:39:13,401 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(327){} - Returning JDBC Connection to DataSource
+2017-01-12 15:39:13,412 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemProperties] PropertySource with lowest search precedence
+2017-01-12 15:39:13,412 [main] DEBUG org.springframework.core.env.StandardEnvironment(110){} - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-01-12 15:39:13,412 [main] DEBUG org.springframework.core.env.StandardEnvironment(126){} - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-01-12 15:39:13,413 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(316){} - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-01-12 15:39:13,414 [main] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader(73){} - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-01-12 15:39:13,416 [main] DEBUG org.springframework.beans.factory.xml.BeansDtdResolver(74){} - Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2017-01-12 15:39:13,428 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader(108){} - Loading bean definitions
+2017-01-12 15:39:13,437 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'DB2'
+2017-01-12 15:39:13,437 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'DB2'
+2017-01-12 15:39:13,438 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2017-01-12 15:39:13,442 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'DB2'
+2017-01-12 15:39:13,442 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'Derby'
+2017-01-12 15:39:13,442 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'Derby'
+2017-01-12 15:39:13,442 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2017-01-12 15:39:13,444 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'Derby'
+2017-01-12 15:39:13,444 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'H2'
+2017-01-12 15:39:13,444 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'H2'
+2017-01-12 15:39:13,444 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'H2' to allow for resolving potential circular references
+2017-01-12 15:39:13,445 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'H2'
+2017-01-12 15:39:13,445 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'HSQL'
+2017-01-12 15:39:13,445 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'HSQL'
+2017-01-12 15:39:13,445 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2017-01-12 15:39:13,446 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'HSQL'
+2017-01-12 15:39:13,446 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'Informix'
+2017-01-12 15:39:13,446 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'Informix'
+2017-01-12 15:39:13,447 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2017-01-12 15:39:13,447 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'Informix'
+2017-01-12 15:39:13,447 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'MS-SQL'
+2017-01-12 15:39:13,448 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'MS-SQL'
+2017-01-12 15:39:13,448 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2017-01-12 15:39:13,449 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'MS-SQL'
+2017-01-12 15:39:13,449 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'MySQL'
+2017-01-12 15:39:13,449 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'MySQL'
+2017-01-12 15:39:13,450 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2017-01-12 15:39:13,451 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'MySQL'
+2017-01-12 15:39:13,451 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'Oracle'
+2017-01-12 15:39:13,451 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'Oracle'
+2017-01-12 15:39:13,451 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2017-01-12 15:39:13,452 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'Oracle'
+2017-01-12 15:39:13,452 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'PostgreSQL'
+2017-01-12 15:39:13,453 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'PostgreSQL'
+2017-01-12 15:39:13,453 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2017-01-12 15:39:13,453 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'PostgreSQL'
+2017-01-12 15:39:13,454 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(220){} - Creating shared instance of singleton bean 'Sybase'
+2017-01-12 15:39:13,454 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(449){} - Creating instance of bean 'Sybase'
+2017-01-12 15:39:13,454 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(523){} - Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2017-01-12 15:39:13,455 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory(477){} - Finished creating instance of bean 'Sybase'
+2017-01-12 15:39:13,455 [main] INFO  org.springframework.jdbc.support.SQLErrorCodesFactory(126){} - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-01-12 15:39:13,455 [main] DEBUG org.springframework.jdbc.support.SQLErrorCodesFactory(199){} - Looking up default SQLErrorCodes for DataSource [org.h2.jdbcx.JdbcConnectionPool@5efb2e7b]
+2017-01-12 15:39:13,456 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(110){} - Fetching JDBC Connection from DataSource
+2017-01-12 15:39:13,458 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(327){} - Returning JDBC Connection to DataSource
+2017-01-12 15:39:13,459 [main] DEBUG org.springframework.jdbc.support.SQLErrorCodesFactory(217){} - Database product name cached for DataSource [org.h2.jdbcx.JdbcConnectionPool@5efb2e7b]: name is 'H2'
+2017-01-12 15:39:13,459 [main] DEBUG org.springframework.jdbc.support.SQLErrorCodesFactory(175){} - SQL error codes for 'H2' found
+2017-01-12 15:39:13,459 [main] DEBUG org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator(397){} - Translating SQLException with SQL state '42S02', error code '42102', message [Table "XXXX" not found; SQL statement:
+SELECT 1 FROM XXXX [42102-193]]; SQL was [SELECT 1 FROM XXXX] for task [PreparedStatementCallback]
+2017-01-12 15:39:13,460 [main] ERROR com.geone.exam.dao.VehiclePassDao(55){} - H2 数据源故障!
+2017-01-12 15:39:13,460 [main] DEBUG org.springframework.jdbc.core.JdbcTemplate(693){} - Executing prepared SQL query
+2017-01-12 15:39:13,460 [main] DEBUG org.springframework.jdbc.core.JdbcTemplate(627){} - Executing prepared SQL statement [SELECT 1 FROM DUAL]
+2017-01-12 15:39:13,460 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(110){} - Fetching JDBC Connection from DataSource
+2017-01-12 15:39:13,856 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(327){} - Returning JDBC Connection to DataSource
+2017-01-12 15:39:13,857 [main] INFO  com.geone.exam.dao.VehiclePassDao(39){} - 采用Oracle 数据源!
+2017-01-12 15:39:13,860 [main] DEBUG org.springframework.jdbc.core.JdbcTemplate(693){} - Executing prepared SQL query
+2017-01-12 15:39:13,860 [main] DEBUG org.springframework.jdbc.core.JdbcTemplate(627){} - Executing prepared SQL statement [SELECT * FROM TBL_VEHICLE_PASS]
+2017-01-12 15:39:13,860 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(110){} - Fetching JDBC Connection from DataSource
+2017-01-12 15:39:13,866 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'UID' to property 'uid' of type class java.lang.String
+2017-01-12 15:39:13,867 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'PLATE_NO' to property 'plateNo' of type class java.lang.String
+2017-01-12 15:39:13,867 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'PASS_TM' to property 'passTm' of type class java.util.Date
+2017-01-12 15:39:13,868 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'COLOR' to property 'color' of type class java.lang.String
+2017-01-12 15:39:13,868 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'CREATE_TM' to property 'createTm' of type class java.util.Date
+2017-01-12 15:39:13,868 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'CREATE_BY' to property 'createBy' of type class java.lang.String
+2017-01-12 15:39:13,869 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'UPDATE_TM' to property 'updateTm' of type class java.util.Date
+2017-01-12 15:39:13,869 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'UPDATE_BY' to property 'updateBy' of type class java.lang.String
+2017-01-12 15:39:13,869 [main] DEBUG org.springframework.jdbc.core.BeanPropertyRowMapper(251){} - Mapping column 'VERSION' to property 'version' of type int
+2017-01-12 15:39:13,870 [main] DEBUG org.springframework.jdbc.datasource.DataSourceUtils(327){} - Returning JDBC Connection to DataSource
+2017-01-12 15:39:13,870 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:2
+2017-01-12 15:39:27,800 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:39:27,867 [main] ERROR com.geone.exam.dao.VehiclePassDao(55){} - H2 数据源故障!
+2017-01-12 15:39:28,260 [main] INFO  com.geone.exam.dao.VehiclePassDao(39){} - 采用Oracle 数据源!
+2017-01-12 15:39:28,272 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:2
+2017-01-12 15:39:52,100 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:39:52,170 [main] ERROR com.geone.exam.dao.VehiclePassDao(55){} - H2 数据源故障!
+2017-01-12 15:39:52,568 [main] INFO  com.geone.exam.dao.VehiclePassDao(39){} - 采用Oracle 数据源!
+2017-01-12 15:39:52,580 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:2
+2017-01-12 15:40:28,236 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:40:28,260 [main] INFO  com.geone.exam.dao.VehiclePassDao(36){} - 采用H2 数据源!
+2017-01-12 15:40:28,267 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束, 查询结果:1
+2017-01-12 15:41:01,963 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:41:01,996 [main] INFO  com.geone.exam.dao.VehiclePassDao(36){} - 采用H2 数据源!
+2017-01-12 15:41:02,005 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - 数据查询结果:1
+2017-01-12 15:41:02,005 [main] INFO  com.geone.exam.svs.VehiclePassService(37){} - Service查询结束!
+2017-01-12 15:41:23,783 [main] INFO  com.geone.exam.svs.VehiclePassService(34){} - Service查询开始!
+2017-01-12 15:41:23,811 [main] INFO  com.geone.exam.dao.VehiclePassDao(36){} - 采用H2 数据源!
+2017-01-12 15:41:23,819 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - 查询数据记录数: [1]
+2017-01-12 15:41:23,819 [main] INFO  com.geone.exam.svs.VehiclePassService(37){} - Service查询结束!
+2017-01-12 15:42:17,490 [main] INFO  com.geone.exam.App(21){} - #########执行开始#########
+2017-01-12 15:42:18,543 [main] INFO  com.geone.exam.dao.VehiclePassDao(36){} - 采用H2 数据源!
+2017-01-12 15:42:18,549 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 15:42:18,549 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 15:42:18,549 [main] INFO  com.geone.exam.App(29){} - #########执行结束#########
+2017-01-12 15:42:37,782 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:42:38,861 [main] INFO  com.geone.exam.dao.VehiclePassDao(36){} - 采用H2 数据源!
+2017-01-12 15:42:38,867 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 15:42:38,868 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 15:42:38,868 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 15:43:26,674 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:43:27,812 [main] ERROR com.geone.exam.dao.VehiclePassDao(55){} - H2 数据源故障!
+2017-01-12 15:43:28,221 [main] ERROR com.geone.exam.dao.VehiclePassDao(69){} - Oracle 数据源故障!
+2017-01-12 15:43:28,225 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 15:44:01,339 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:44:02,427 [main] ERROR com.geone.exam.dao.VehiclePassDao(56){} - H2 数据源故障!
+2017-01-12 15:44:02,790 [main] ERROR com.geone.exam.dao.VehiclePassDao(70){} - Oracle 数据源故障!
+2017-01-12 15:44:02,790 [main] ERROR com.geone.exam.dao.VehiclePassDao(42){} - H2/ORACLE数据库同时故障!
+2017-01-12 15:44:02,795 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 15:44:20,857 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:44:21,969 [main] ERROR com.geone.exam.dao.VehiclePassDao(56){} - H2 数据源故障!
+2017-01-12 15:44:22,349 [main] ERROR com.geone.exam.dao.VehiclePassDao(70){} - Oracle 数据源故障!
+2017-01-12 15:44:22,349 [main] ERROR com.geone.exam.dao.VehiclePassDao(42){} - H2/ORACLE数据库同时故障!
+2017-01-12 15:44:22,353 [main] ERROR com.geone.exam.App(27){} - [Ljava.lang.String;@687eecd7
+2017-01-12 15:44:22,353 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 15:44:33,595 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:44:34,742 [main] ERROR com.geone.exam.dao.VehiclePassDao(56){} - H2 数据源故障!
+2017-01-12 15:44:35,141 [main] ERROR com.geone.exam.dao.VehiclePassDao(70){} - Oracle 数据源故障!
+2017-01-12 15:44:35,141 [main] ERROR com.geone.exam.dao.VehiclePassDao(42){} - H2/ORACLE数据库同时故障!
+2017-01-12 15:44:35,143 [main] ERROR com.geone.exam.App(27){} - com.geone.exam.utils.DSFaultException: H2/ORACLE数据库同时故障!
+	at com.geone.exam.dao.BaseDao.getNamedJdbcTmplt(BaseDao.java:43)
+	at com.geone.exam.dao.VehiclePassDao.findList(VehiclePassDao.java:27)
+	at com.geone.exam.svs.VehiclePassService.findList(VehiclePassService.java:34)
+	at com.geone.exam.App.main(App.java:25)
+
+2017-01-12 15:44:35,143 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 15:47:37,586 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:47:38,758 [main] ERROR com.geone.exam.dao.VehiclePassDao(56){} - H2 数据源故障!
+2017-01-12 15:47:39,146 [main] ERROR com.geone.exam.dao.VehiclePassDao(70){} - Oracle 数据源故障!
+2017-01-12 15:47:39,146 [main] ERROR com.geone.exam.dao.VehiclePassDao(42){} - H2/ORACLE数据库同时故障!
+2017-01-12 15:47:39,148 [main] ERROR com.geone.exam.App(27){} - com.geone.exam.utils.DSFaultException: H2/ORACLE数据库同时故障!
+	at com.geone.exam.dao.BaseDao.getNamedJdbcTmplt(BaseDao.java:43)
+	at com.geone.exam.dao.VehiclePassDao.findList(VehiclePassDao.java:27)
+	at com.geone.exam.svs.VehiclePassService.findList(VehiclePassService.java:34)
+	at com.geone.exam.App.main(App.java:25)
+
+2017-01-12 15:47:39,148 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 15:47:53,236 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:47:54,383 [main] ERROR com.geone.exam.dao.VehiclePassDao(56){} - H2 数据源故障!
+2017-01-12 15:47:54,780 [main] INFO  com.geone.exam.dao.VehiclePassDao(39){} - 采用Oracle 数据源!
+2017-01-12 15:47:54,792 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [2]
+2017-01-12 15:47:54,793 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 15:47:54,793 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 15:51:08,261 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 15:51:09,381 [main] ERROR com.geone.exam.dao.JdbcTemplateProxy(58){} - H2 数据源故障!
+2017-01-12 15:51:09,765 [main] INFO  com.geone.exam.dao.JdbcTemplateProxy(41){} - 采用Oracle 数据源!
+2017-01-12 15:51:09,776 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [2]
+2017-01-12 15:51:09,777 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 15:51:09,777 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:03:12,074 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:03:43,744 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:04:05,652 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:04:48,305 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:05:37,075 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:06:03,528 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:06:06,559 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:06:06,559 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:06:06,559 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:06:45,824 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:07:06,544 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:07:06,544 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:07:06,544 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:09:32,637 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:10:03,818 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [2]
+2017-01-12 16:10:03,818 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:10:03,818 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:10:20,725 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:10:21,842 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:10:21,842 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:10:21,842 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:21:34,691 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:21:35,731 [main] INFO  com.geone.exam.utils.ProxyHandler(37){} - 代理开始
+2017-01-12 16:21:35,757 [main] INFO  com.geone.exam.utils.ProxyHandler(39){} - 代理结束
+2017-01-12 16:21:35,758 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:21:35,758 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:21:35,758 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:29:02,254 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:29:03,445 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(42){} - ========代理开始========
+2017-01-12 16:29:03,445 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(44){} - 采用H2 数据源
+2017-01-12 16:29:03,477 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(50){} - ========代理结束========
+2017-01-12 16:29:03,478 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:29:03,478 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:29:03,478 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:34:39,410 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:35:34,087 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:37:38,316 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:38:17,273 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:39:17,191 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:40:17,209 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:40:28,228 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(46){} - ========代理开始========
+2017-01-12 16:40:28,229 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(48){} - 采用H2 数据源
+2017-01-12 16:40:28,290 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(54){} - ========代理结束========
+2017-01-12 16:40:30,695 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:40:30,695 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:40:30,696 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:43:44,798 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:43:49,125 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(48){} - ========代理开始========
+2017-01-12 16:43:49,126 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(50){} - 采用H2 数据源
+2017-01-12 16:43:52,287 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(56){} - 采用ORACLE 数据源
+2017-01-12 16:43:55,104 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(59){} - ========代理结束========
+2017-01-12 16:43:55,105 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [2]
+2017-01-12 16:43:55,106 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:43:55,106 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:48:37,123 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:48:41,681 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(48){} - ========代理开始========
+2017-01-12 16:48:41,681 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(52){} - 采用H2 数据源
+2017-01-12 16:48:49,735 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(59){} - ========代理结束========
+2017-01-12 16:48:49,735 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:48:49,736 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:48:49,736 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:50:54,058 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:50:55,183 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(47){} - ========代理开始========
+2017-01-12 16:50:55,184 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(51){} - 采用H2 数据源
+2017-01-12 16:50:55,217 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(65){} - ========代理结束========
+2017-01-12 16:50:55,217 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:50:55,218 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:50:55,218 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:51:15,742 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:51:16,819 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(47){} - ========H2 数据源代理开始========
+2017-01-12 16:51:16,819 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(51){} - 采用H2 数据源
+2017-01-12 16:51:16,852 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(65){} - ========H2 数据源代理结束========
+2017-01-12 16:51:16,853 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [1]
+2017-01-12 16:51:16,853 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:51:16,853 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:51:53,553 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:51:54,772 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(47){} - ========H2 数据源代理开始========
+2017-01-12 16:51:54,773 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(56){} - H2 数据源故障
+2017-01-12 16:51:54,773 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(57){} - 采用ORACLE 数据源
+2017-01-12 16:51:55,240 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(65){} - ========H2 数据源代理结束========
+2017-01-12 16:51:55,240 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [2]
+2017-01-12 16:51:55,240 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:51:55,240 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################
+2017-01-12 16:52:34,390 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:53:24,002 [main] INFO  com.geone.exam.App(21){} - ##################执行开始##################
+2017-01-12 16:53:25,210 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(47){} - ========H2 数据源代理开始========
+2017-01-12 16:53:25,210 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(56){} - H2 数据源故障
+2017-01-12 16:53:25,210 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(57){} - 采用ORACLE 数据源
+2017-01-12 16:53:25,211 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(62){} - H2/ORACLE 数据源全部故障
+2017-01-12 16:53:25,211 [main] INFO  com.geone.exam.utils.JdbcTmpltProxyHandler(67){} - ========H2 数据源代理结束========
+2017-01-12 16:53:25,211 [main] INFO  com.geone.exam.svs.VehiclePassService(35){} - 查询数据记录数: [-1]
+2017-01-12 16:53:25,211 [main] INFO  com.geone.exam.svs.VehiclePassService(36){} - Service查询结束!
+2017-01-12 16:53:25,212 [main] INFO  com.geone.exam.App(29){} - ##################执行结束##################

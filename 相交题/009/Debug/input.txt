@@ -1,0 +1,4 @@
+F:\\shp\\AB02.shp
+F:\\shp\\AA01.shp
+F:\\shp\\RES.shp
+10

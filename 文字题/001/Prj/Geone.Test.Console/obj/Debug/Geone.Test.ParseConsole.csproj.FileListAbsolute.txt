@@ -1,0 +1,17 @@
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\data\sDict.txt
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\data\sNoise.txt
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\data\sObj.txt
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\data\sObj_dw.txt
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\data\sObj_zw.txt
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Geone.Test.ParseConsole.exe.config
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Geone.Test.ParseConsole.exe
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Geone.Test.ParseConsole.pdb
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Lucene.China.dll
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Lucene.Net.dll
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Nancy.dll
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Nancy.Hosting.Self.dll
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Newtonsoft.Json.dll
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Nancy.xml
+E:\Project\Geone\Prj\Geone.Test.Console\bin\Debug\Nancy.Hosting.Self.xml
+E:\Project\Geone\Prj\Geone.Test.Console\obj\Debug\Geone.Test.ParseConsole.exe
+E:\Project\Geone\Prj\Geone.Test.Console\obj\Debug\Geone.Test.ParseConsole.pdb

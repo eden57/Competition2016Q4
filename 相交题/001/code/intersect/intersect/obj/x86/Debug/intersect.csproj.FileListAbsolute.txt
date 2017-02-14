@@ -1,0 +1,17 @@
+E:\EEC#\intersect\intersect\obj\x86\Debug\intersect.csprojResolveAssemblyReference.cache
+E:\EEC#\intersect\intersect\obj\x86\Debug\intersect.Form1.resources
+E:\EEC#\intersect\intersect\obj\x86\Debug\intersect.Properties.Resources.resources
+E:\EEC#\intersect\intersect\obj\x86\Debug\intersect.csproj.GenerateResource.Cache
+E:\EEC#\intersect\intersect\bin\Debug\intersect.exe
+E:\EEC#\intersect\intersect\bin\Debug\intersect.pdb
+E:\EEC#\intersect\intersect\obj\x86\Debug\intersect.exe
+E:\EEC#\intersect\intersect\obj\x86\Debug\intersect.pdb
+E:\EEC#\intersect\intersect\bin\Debug\Microsoft.CSharp.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.Data.DataSetExtensions.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.Data.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.Deployment.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.Drawing.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.Windows.Forms.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.Xml.dll
+E:\EEC#\intersect\intersect\bin\Debug\System.Xml.Linq.dll

@@ -1,0 +1,15 @@
+E:\EvanDemo\EvanDemo\bin\EvanDemo.dll
+E:\EvanDemo\EvanDemo\bin\EvanDemo.pdb
+E:\EvanDemo\EvanDemo\bin\Microsoft.Web.Infrastructure.dll
+E:\EvanDemo\EvanDemo\bin\Newtonsoft.Json.dll
+E:\EvanDemo\EvanDemo\bin\EntityFramework.dll
+E:\EvanDemo\EvanDemo\bin\Microsoft.Web.Infrastructure.xml
+E:\EvanDemo\EvanDemo\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\EvanDemo\EvanDemo\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\EvanDemo\EvanDemo\bin\EntityFramework.xml
+E:\EvanDemo\EvanDemo\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\EvanDemo\EvanDemo\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\EvanDemo\EvanDemo\bin\zh-Hans\Microsoft.AspNet.FriendlyUrls.resources.dll
+E:\EvanDemo\EvanDemo\bin\zh-Hans\EntityFramework.resources.dll
+E:\EvanDemo\EvanDemo\obj\Debug\EvanDemo.dll
+E:\EvanDemo\EvanDemo\obj\Debug\EvanDemo.pdb

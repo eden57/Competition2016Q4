@@ -1,0 +1,4 @@
+思路：
+1.建一个soringMVC的web项目，然后把h2的配置写在前端控制器contex.xml里面，系统启动的时候会启动 h2-context.xml里面的sql，创建表，插入初始值进入内存
+2.访问http://127.0.0.1:8090/ExamH2/，后台取内存数据库的值，包装视图对象，将内存数据库的值在页面h2.jsp展示。
+3.使用Invocationhanlder管理连接池，连接之前获取连接状态，如果h2状态是close就用oracle连接，如果都是close就报错。
